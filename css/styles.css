@@ -17,7 +17,7 @@
     width: 16vh;
     height: 40vh;
     background-color:#ff926a;
-    margin: 2px; 
+    /* margin: 2px;  */
     border-radius: 75px 0 0 75px;
    
 }
@@ -26,13 +26,54 @@
     width: 60vh;
     height: 40vh;
     background-color:#ff926a;
-    margin: 2px;
+    /* margin: 2px; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mando-der{
     width: 16vh;
     height: 40vh;
     background-color:#ff926a;
-    margin: 2px;
+    /* margin: 2px; */
     border-radius: 0 75px 75px 0;
 }
+
+.rect-fuera{
+    width: 57vh;
+    height: 37vh;
+    background-color:#ff926a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imagen-fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 55vh;
+    border-radius: 3px;
+    
+}
+
+.som-rect-fuera{
+    box-shadow: inset 5px 15px 20px 0   #6b6665 ;
+
+}
+
+
+.somb-ext{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+
+
+
+
