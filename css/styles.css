@@ -2,7 +2,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   
+
 }
 
 
@@ -19,14 +19,12 @@
     background-color:#ff926a;
     /* margin: 2px;  */
     border-radius: 75px 0 0 75px;
-   
+
 }
 
 .cuerpo{
     width: 60vh;
     height: 40vh;
-    background-color:#ff926a;
-    /* margin: 2px; */
     position: relative;
     display: flex;
     justify-content: center;
@@ -41,6 +39,16 @@
     border-radius: 0 75px 75px 0;
 }
 
+.mando-entero{
+    height: 40vh;
+    width: 92vh;
+    background-color: #ff926a;
+    display: flex;
+    justify-content: center;
+    border-radius: 75px;
+
+}
+
 .rect-fuera{
     width: 57vh;
     height: 37vh;
@@ -49,29 +57,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    border-style: solid;
+    border-color: rgb(76, 76, 76);
+    border-width: 2px;
+
 }
 
 .imagen-fondo{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 35vh;
-    width: 55vh;
-    border-radius: 3px;
-    
-}
-
-.som-rect-fuera{
-    box-shadow: inset 5px 15px 20px 0   #6b6665 ;
+    height: 31vh;
+    width: 51vh;
+    border-radius: 1.5px;
+    border-style: solid;
+    border-color: rgb(62, 62, 62);
+    border-width: 4px;
 
 }
 
-
-.somb-ext{
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-
+.cruz-izq{
+    background-color: tomato;
+    width: 60px;
+    height: 60px;
+    position: relative ; left: 13vh; top: 6vh;
+   
+   
 }
+
+.som-rect-fuera{box-shadow: inset 5px 15px 20px 0   #cd8f81;}
+
+
+/* .sobra-consola{box-shadow: rgba(88, 85, 85, 0.984) 0px 3px 8px;} */
+
+.somb-int{box-shadow: inset #fdeee8 15px 15px 20px;}
 
 
 
