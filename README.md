@@ -1,10 +1,12 @@
 # videoconsola-ejercicio
 A.LOPEZ-Ejercicio técnico semana 1, videoconsola
 
-TÍTULO DEL PROYECTO: Ejercicio técnico semana 1 - Videoconsola - 
-AUTOR: Alejandro López Bellés
-TECNOLOGÍAS Y LENGUAJES: 
-    HTML5
-    CSS
-    VISUAL STUDIO CODE 
+### Datos generales
 
+**- Autor del proyecto:** Alejandro López Bellés
+**- Título del proyecto:** Ejercicio técnico 1 - Portada Videoconsola
+**- Fecha:** 25/09/2022
+
+- Lenguajes utilizados : 
+ - HTML5
+ - CSS
