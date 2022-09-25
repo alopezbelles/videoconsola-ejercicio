@@ -11,13 +11,15 @@
     justify-content: center;
     align-items: center;
     height: 90vh;
+    width: 100%;
+
+
 }
 
 .mando-izq{
     width: 16vh;
     height: 40vh;
     background-color:#ff926a;
-    /* margin: 2px;  */
     border-radius: 75px 0 0 75px;
 
 }
@@ -46,6 +48,8 @@
     display: flex;
     justify-content: center;
     border-radius: 75px;
+
+
 
 }
 
@@ -77,18 +81,67 @@
 }
 
 .cruz-izq{
-    background-color: tomato;
-    width: 60px;
-    height: 60px;
-    position: relative ; left: 13vh; top: 6vh;
-   
-   
+    /* background-color: tomato; */
+    width: 56px;
+    height: 56px;
+    position: relative ; top: 9vh; left: 14vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0;
+
 }
+
+.circ-izq{
+    width: 7vh;
+    height: 7vh;
+    background-color:whitesmoke;
+    border-radius: 100%;
+    position: relative; top: -7vh; left: 25vh;
+    margin: 0;
+
+}
+
+.bot-peq-izq{
+    width: 3vh;
+    height: 1vh;
+    background-color:whitesmoke;
+    position: relative; bottom: 14vh; left: 25vh;
+
+}
+
+
+
+.r1{
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    background-color: whitesmoke
+
+}
+
+.r2{
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    background-color: whitesmoke
+}
+
+
+
+
+
+
+
+
+
+
 
 .som-rect-fuera{box-shadow: inset 5px 15px 20px 0   #cd8f81;}
 
 
-/* .sobra-consola{box-shadow: rgba(88, 85, 85, 0.984) 0px 3px 8px;} */
+#sobra-general {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
 
 .somb-int{box-shadow: inset #fdeee8 15px 15px 20px;}
 
