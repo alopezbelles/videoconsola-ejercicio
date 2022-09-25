@@ -116,6 +116,10 @@
     border: groove;
 }
 
+.cir-der:active{
+    box-shadow-2: none;
+}
+
 
 
 .bot-peq-izq{
