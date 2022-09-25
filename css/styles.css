@@ -2,7 +2,6 @@
    display: flex;
    justify-content: center;
    align-items: center;
-
 }
 
 
@@ -12,8 +11,6 @@
     align-items: center;
     height: 90vh;
     width: 90%;
-
-
 }
 
 .mando-izq{
@@ -44,7 +41,8 @@
 .mando-entero{
     height: 40vh;
     width: 92vh;
-    background-color: #ff926a;
+    /* background-color: #ff926a; */
+    background-image: radial-gradient(#ff926a,#ff926a,#ff926a,#bd9482);
     display: flex;
     justify-content: center;
     border-radius: 75px;
@@ -61,7 +59,6 @@
     border-style: solid;
     border-color: rgb(76, 76, 76);
     border-width: 2px;
-
 }
 
 .imagen-fondo{
@@ -74,7 +71,6 @@
     border-style: solid;
     border-color: rgb(62, 62, 62);
     border-width: 4px;
-
 }
 
 .cruz-izq{
@@ -86,41 +82,38 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     margin: 0;
-
 }
 
 .r1{
     grid-column: 2 / 3;
     grid-row: 1 / 4;
-    background-color: whitesmoke
-
+    background-color: whitesmoke;
+    border: groove;
 }
 
 .r2{
     grid-column: 1 / 4;
     grid-row: 2 / 3;
-    background-color: whitesmoke
+    background-color: whitesmoke;
 }
 
 
 .circ-izq{
     width: 7vh;
     height: 7vh;
-    background-color:whitesmoke;
+    background-image: radial-gradient(rgb(255, 255, 255),rgb(193, 193, 193));
     border-radius: 100%;
     position: relative; top: -7vh; left: 35vh;
-    margin: 0;
-
+    border: groove;
 }
 
 .circ-der{
     width: 7vh;
     height: 7vh;
-    background-color:whitesmoke;
+    background-image: radial-gradient(rgb(255, 255, 255),rgb(193, 193, 193));
     border-radius: 100%;
     position: relative; top: 7vh; left: 100vh;
-
-
+    border: groove;
 }
 
 
@@ -128,9 +121,7 @@
 .bot-peq-izq{
     width: 3vh;
     height: 1vh;
-    background-color:whitesmoke;
-    position: relative; bottom: 14vh; left: 28vh;
-
+    background-image: linear-gradient(whitesmoke,rgb(199, 198, 198));    position: relative; bottom: 14vh; left: 28vh;
 }
 
 
@@ -146,7 +137,7 @@
 #X{
     width: 4vh;
     height: 4vh;
-    background-color: whitesmoke;
+    background-image: linear-gradient(whitesmoke,rgb(199, 198, 198));
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -154,15 +145,14 @@
     font-family: Arial;
     font-size: 12px;
     color: rgb(157, 152, 152);
-    /* margin-left: -5vh; */
     position: relative;
+    
 }
 
 #A{
     width: 4vh;
     height: 4vh;
-    background-color: whitesmoke;
-    border-radius: 100%;
+    background-image: linear-gradient(whitesmoke,rgb(199, 198, 198));    border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,22 +166,20 @@
 #B{
     width: 4vh;
     height: 4vh;
-    background-color: whitesmoke;
-    border-radius: 100%;
+    background-image: linear-gradient(whitesmoke,rgb(199, 198, 198));    border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial;
     font-size: 12px;
     color: rgb(157, 152, 152);
-    /* margin-left: -5vh; */
 
 }
 
 #Y{
     width: 4vh;
     height: 4vh;
-    background-color: whitesmoke;
+    background-image: linear-gradient(whitesmoke,rgb(199, 198, 198));   
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -203,14 +191,14 @@
 
 }
 
+.box-shadow-2{box-shadow: rgb(65, 65, 65) 2px 2px 2px;}
+
 .box-shadow{box-shadow: rgb(65, 65, 65) 5px 5px 10px;}
 
 .som-rect-fuera{box-shadow: inset 5px 15px 20px 0   #cd8f81;}
 
-#somb-volumen{
-    box-shadow: inset 9px 11px 40px 0px rgba(255,255,255,1);
-}
 
+   
 
 
 
